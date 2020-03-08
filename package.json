@@ -1,0 +1,23 @@
+{
+  "name": "gds-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader for the gds-parser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "gds",
+    "game",
+    "dialog",
+    "script"
+  ],
+  "author": "Jorge Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "@jorge-ramirez-arredondo/game-dialog-script": "file:../gds-parser",
+    "loader-utils": "^1.2.3"
+  }
+}
