@@ -17,7 +17,7 @@
   "author": "Jorge Ramirez",
   "license": "ISC",
   "dependencies": {
-    "@jorge-ramirez-arredondo/gds-instructions-generator": "^1.0.1",
+    "@jorge-ramirez-arredondo/gds-instructions-generator": "^1.0.2",
     "@jorge-ramirez-arredondo/gds-parser": "^1.2.0",
     "loader-utils": "^1.4.0"
   }
