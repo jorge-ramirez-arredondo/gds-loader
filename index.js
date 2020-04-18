@@ -1,7 +1,8 @@
 const loaderUtils = require("loader-utils");
-const { gdsParser, gdsGenerator } = require("@jorge-ramirez-arredondo/game-dialog-script");
+const gdsParser = require("@jorge-ramirez-arredondo/gds-parser");
+const gdsGenerator = require("@jorge-ramirez-arredondo/gds-instructions-generator");
 
-const GDS_MODULE = `"@jorge-ramirez-arredondo/game-dialog-script"`;
+const GDS_INTERPRETER_MODULE = `"@jorge-ramirez-arredondo/gds-instructions-interpreter"`;
 
 function gdsLoader(source) {
 	const ast = gdsParser.parse(source);
@@ -12,7 +13,7 @@ function gdsLoader(source) {
 		avoid possible scope conflicts with instructions.
 	*/
 	return `
-		module.exports = new require(${GDS_MODULE}).GDSInstructionInterpreter(${instructions});
+		module.exports = new require(${GDS_INTERPRETER_MODULE}).GDSInstructionInterpreter(${instructions});
 	`;
 }
 

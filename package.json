@@ -19,7 +19,8 @@
   "author": "Jorge Ramirez",
   "license": "ISC",
   "dependencies": {
-    "@jorge-ramirez-arredondo/game-dialog-script": "file:../gds-parser",
+    "@jorge-ramirez-arredondo/gds-instructions-generator": "^1.0.0",
+    "@jorge-ramirez-arredondo/gds-parser": "^1.2.0",
     "loader-utils": "^1.2.3"
   }
 }
