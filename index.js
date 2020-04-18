@@ -13,7 +13,7 @@ function gdsLoader(source) {
 		avoid possible scope conflicts with instructions.
 	*/
 	return `
-		module.exports = new require(${GDS_INTERPRETER_MODULE}).GDSInstructionInterpreter(${instructions});
+		module.exports = new (require(${GDS_INTERPRETER_MODULE}).GDSInstructionInterpreter)(${instructions});
 	`;
 }
 
