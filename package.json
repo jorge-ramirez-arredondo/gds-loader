@@ -1,7 +1,8 @@
 {
-  "name": "gds-loader",
+  "name": "@jorge-ramirez-arredondo/gds-loader",
   "version": "1.0.0",
   "description": "A webpack loader for the gds-parser.",
+  "repository": "git://github.com/jorge-ramirez-arredondo/gds-loader",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +13,8 @@
     "gds",
     "game",
     "dialog",
-    "script"
+    "script",
+    "language"
   ],
   "author": "Jorge Ramirez",
   "license": "ISC",
