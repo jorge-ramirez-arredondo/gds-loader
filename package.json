@@ -1,11 +1,10 @@
 {
   "name": "@jorge-ramirez-arredondo/gds-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack loader for the gds-parser.",
   "repository": "git://github.com/jorge-ramirez-arredondo/gds-loader",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "webpack",
     "loader",
